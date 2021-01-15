@@ -13,6 +13,7 @@ const iteration = (numBase, limite) => {
   for (let i = 1; i <= limite; i++) {
     resultado = numBase * i;
     data += `${numBase} * ${i} = ${resultado} \n`;
+    return data;
   }
 };
 
